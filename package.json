@@ -1,0 +1,17 @@
+{
+  "name": "e-commerce-back-end",
+  "version": "1.0.0",
+  "description": "Sets up back end of an ecommerce website",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "anishasnet",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.21.12"
+  }
+}
