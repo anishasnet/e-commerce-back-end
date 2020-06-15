@@ -1,7 +1,7 @@
 const router = require('express').Router();
 const { Category, Product } = require('../../models');
 
-// The `/api/categories` endpoint
+// The `/api/categories endpoint
 
 router.get('/', (req, res) => {
   // find all categories
@@ -14,7 +14,9 @@ router.get('/', (req, res) => {
     ]
 
   })
-  .then(dbCategoryData => res.json(dbCategoryData))
+  .then(dbCategoryData => {
+    res.json(dbCategoryData)
+  })
   .catch(err => {
     console.log(err);
     res.status(500).json(err);
@@ -67,7 +69,7 @@ router.put('/:id', (req, res) => {
     }
   })
     .then(dbCategoryData => {
-      if (!dbCategory) {
+      if (!dbCategoryData) {
         res.status(404).json({ message: 'There is no category associated with this id.' });
         return;
       }
