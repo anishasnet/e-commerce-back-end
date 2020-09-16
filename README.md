@@ -3,10 +3,11 @@
 
 
 ## Description
-This project sets up the back end for any given commerce website. It has models for categories, products, and tags. It uses MySql2, Sequelize, Express, and dotenv.
+This project sets up the generic back end for any given commerce website. It has models for categories, products, and tags. It uses MySql2, Sequelize, Express, and dotenv.
+<!-- 
 Walkthrough of Code, Seeding, Databases, Server: https://drive.google.com/file/d/1aFkoUmbxW5v_RKj-vCMzVAw1MumQtpHx/view?usp=sharing
 Walkthrough of Route Testing in Insomnia: https://drive.google.com/file/d/1r6Eq-9MrwfesQuBzcPoRWq-7JC75nm0P/view?usp=sharing
-
+-->
 
 ## Table of Contents
 * [Installation](#installation)
